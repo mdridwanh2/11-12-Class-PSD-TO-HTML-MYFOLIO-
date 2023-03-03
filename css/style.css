@@ -1,0 +1,388 @@
+/* *comment css starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+/* *comment css ends here */
+
+
+
+
+
+/* *navber starts here */
+
+nav{
+    background-color: #009999;
+}
+nav .logo{
+    width: 40%;
+}
+
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    color: white;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 25px;
+    display: inline-block;
+}
+nav .menu ul li a:hover{
+    color: #CFC91D;
+}
+
+/* *navber ends here */
+
+
+
+
+
+
+
+/* *banner starts here */
+
+#banner{
+    background-image: url(../image/banner\ image.jpg);
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply ;
+    background-color: #0000008f;
+    text-align: center;
+    color: #ffffff;
+}
+
+#banner .container{
+    height: 100%;
+
+}
+#banner .row{
+    height: 100%;
+    justify-content: center;
+}
+
+#banner .container_cnt h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#banner .container_cnt h2{
+    font-weight: 800;
+    font-size: 64px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#banner .container_cnt p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#banner .container_cnt img{
+    display: block;
+    margin: 55px auto;
+    
+    
+}
+
+#banner .container_cnt a{
+    display: inline-block;
+    color: #ffffff;
+    padding: 20px 42px;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: #cccc33;
+}
+
+/* *banner ends here */
+
+
+
+
+
+
+
+/* *about me starts here */
+
+.heading{
+    color: #009999;
+    font-weight: 800;
+    font-size: 46px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 63px 98px;
+    position: relative;
+    
+}
+
+.heading::after{
+    content:'';
+    width: 162px;
+    height: 9px;
+    background-image: url(../image/heading\ shape\ .png);
+    position: absolute;
+    bottom: -35px;
+    left: 50%;      /* question here (left:50%) */
+    transform: translateX(-50%);
+}
+
+#about .details{
+    width: 80%;
+    text-align: center;
+    margin: 85px auto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e9297;
+}
+
+#about .about_card span{
+    font-weight: 800;
+    font-size: 23px;
+    color: #009999;
+    
+}
+
+
+.about_card{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #cccc;
+    padding: 40px 0px;
+    margin-bottom: 103px;
+}
+
+.about_card h4{
+    font-weight: 800;
+    font-size: 16px;
+    color: #8e9297;
+    margin: 20px 0;
+}
+.about_card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e9297;
+    padding: 0 40px;
+}
+
+.about_card:last-child{
+    border: none;
+}
+
+
+/* *about me ends here */
+
+
+
+
+
+
+
+
+/* *service starts here */
+
+#service .service_banner{
+    background-image: url(../image/service\ banner.jpg);
+    width: 100%;
+    padding: 74px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#service .box{
+    width: 50%;
+   
+}
+
+#service .heading{
+text-align: left;
+margin: 0;
+}
+
+#service .heading::after{
+    left: 0;
+    transform: translateX(0);
+}
+
+
+.heading::after{
+    content:'';
+    width: 162px;
+    height: 9px;
+    background-image: url(../image/heading\ shape\ .png);
+    position: absolute;
+    bottom: -35px;
+    left: 50%;      /* question here (left:50%) */
+    transform: translateX(-50%);
+}
+
+.serviceWrapper{
+    margin-top: 80px;
+}
+.service_card span{
+    display: block;
+    margin: 20px 0;
+    color: #009999;
+}
+
+.service_card h4{
+    display: block;
+    margin: 20px 0;
+    color: #8e9297;
+}
+.service_card P{
+    color: #8e9297;
+}
+
+.service_card{
+    width: 50%;
+}
+
+/* *service ends here */
+
+
+
+
+
+
+
+
+/* *my work starts here */
+
+#my_work p{
+    width: 80%;
+    text-align: center;
+    margin: 85px auto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e9297;
+}
+
+.work-card{
+    width: 25%;
+}
+
+#my_work img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+/* *my work ends here */
+
+
+
+
+
+/* *contact starts here */
+#contact p{
+    width: 80%;
+    text-align: center;
+    margin: 85px auto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e9297;
+}
+
+#contact .background{
+    width: 100%;
+    padding: 68px 0;
+    background-color: #161120fa;
+}
+
+#contact .row{
+    align-items: center;
+}
+
+#contact label{
+    justify-content: center;
+}
+
+.input_field{
+    color: white;
+    /* background-color: #f00; */
+    width: 640px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.input_field input{
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#contact .SUBMIT{
+    text-align: center;
+    margin: 68px;
+}
+
+
+#contact .SUBMIT a{
+    display: inline-block;
+    color: #ffffff;
+    padding: 20px 42px;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: #cccc33;
+    justify-content: center;
+}
+
+/* *contact ends here */
+
+
+
+
+
+/* *end-bar starts here */
+
+#end-bar .end-box{
+    width: 100%;
+    height: 72px;
+    background-color: #009999;
+}
+#end-bar .end-box h4{
+   text-align: center;
+   color: #ffffff;
+   margin-top: 36px;
+    
+}
+
+/* *end-bar ends here */
+
